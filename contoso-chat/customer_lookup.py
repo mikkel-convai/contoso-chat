@@ -1,5 +1,5 @@
 from typing import Dict
-from promptflow import tool
+from promptflow.core import tool
 from azure.cosmos import CosmosClient
 from promptflow.connections import CustomConnection
 
